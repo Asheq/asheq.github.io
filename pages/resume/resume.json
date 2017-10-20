@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Asheq Imran",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "asheq89@gmail.com",
+    "phone": "(703) 870-9809",
+    "website": "https://asheq.github.io",
+    "summary": "I love writing high-performing software that is both useful and easy to use. I am currently working at General Electric where I build the front end for various edge applications that help power utilities operate their gas turbine fleet.",
+    "location": {
+      "address": "1320 Alma Avenue, Apt C104",
+      "postalCode": "CA 94596",
+      "city": "Walnut Creek",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "asheq",
+        "url": "https://github.com/Asheq"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "GE Power",
+      "position": "Software Developer",
+      "website": "https://www.ge.com",
+      "startDate": "2013-08-05",
+      "summary": "General Electric",
+      "highlights": [
+        "Built front-end for various gas turbine advisory applications, which help power utilities operate gas turbines to maximize profits.",
+        "Completed the Edison Engineering Development Program (EEDP)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Master",
+      "startDate": "2012-08-20",
+      "endDate": "2013-08-03",
+      "courses": [
+        "ECE 6390 - Satellite Communication and Navigation Systems",
+        "ECE 6456 - Solar Cells",
+        "ECE 8803 - Dynamic Control of Hybrid Electric Vehicles",
+        "ECE 8843 - Autonomous Control of Robotic Systems",
+        "ECE 6552 - Nonlinear Systems",
+        "ECE 6551 - Digital Control"
+      ]
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2007-08-20",
+      "endDate": "2012-05-05",
+      "courses": [
+        "CS 1371 - Computing for Engineers (MATLAB)",
+        "ECE 2030 - Introduction to Computer Engineering",
+        "ECE 2025 - Introduction to Signal Processing",
+        "ECE 2040 - Circuit Analysis",
+        "ECE 2031 - Digital Design Lab (VHDL)",
+        "ECE 3025 - Electromagetics",
+        "ECE 3040 - Microelectronic Circuits",
+        "ECE 3085 - Introduction to Systems & Controls",
+        "ECE 3090 - Software for Engineering Systems (C++)",
+        "ECE 4175 - Embedded Microcontroller Design (C)",
+        "ECE 3076 - Computer Communications",
+        "ECE 4781 - Biomedical Instrumentation",
+        "ECE 4445 - Audio Engineering",
+        "ECE 3070 - Electrical Energy Conversion",
+        "ECE 3720 - Introduction to Fluid and Thermal Engineering",
+        "ECE 4580 - Computer Vision"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "CST Engineering Award for Outstanding Tech. Achievement.",
+      "date": "2016",
+      "awarder": "General Electric"
+    },
+    {
+      "title": "GE Digital App-a-thon Winner",
+      "date": "2016",
+      "awarder": "General Electric"
+    },
+    {
+      "title": "Controls Symposium Predix App Contest Winner",
+      "date": "2015 and 2016",
+      "awarder": "General Electric",
+      "summary": "Win in 2015 was for GER3620. Win in 2016 was for Performance Recovery Advisor."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Intermediate speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Vim"
+    },
+    {
+      "name": "User Experience"
+    }
+  ]
+}

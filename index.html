@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 
+<!-- This website should follow the code guidelines here: http://codeguide.co/#html -->
+<!-- And pass validation here: https://validator.w3.org/nu/ -->
+
 <!-- Root (top-most) element of HTML document -->
-<html lang="en">
+<html lang="en-us">
 
 <!-- Collection of metadata for the document -->
+
 <head>
   <title>Asheq Imran</title>
+  <meta name="description" content="Personal Website of Asheq Imran">
+  <meta name="description" content="Asheq Imran">
+
+  <!-- Make page appear normally on mobile devices -->
+  <!-- TODO: Test -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Declare this page's character encoding -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Declare this page's character encoding. This has the side-effect of making the use of
+    character entities in HTML optional, provided their encoding matches that of the document -->
   <meta charset="utf-8">
 
+  <!-- If being viewed on Internet Explorer, render the page with latest supported IE mode (edge) -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
   <!-- CSS Start -->
-  <link href="css/main.css" rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="css/main.css">
   <!-- CSS End -->
 </head>
 
 <!-- Body of the document -->
+
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="#">Asheq Imran</a>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h2>Asheq Imran</h2>
+        <h4>Software Developer at General Electric working on edge applications for gas turbines</h4>
+        <p>Here's a link to <a class="btn btn-primary my-resume-link" href="pages/resume/resume.html" role="button">my resume</a></p>
+        <p>If you are curious, here's <a href="pages/resume/resume.json">my resume in JSON format</a>.</p>
+        <hr>
+        <h3>About this site</h3>
+        <p>This site is intended to become a blog and an outlet for my design and development interests. It is:</p>
+        <ul>
+          <li>
+            Coded with Vim
+          </li>
+          <li>
+            Built on Bootstrap
+          </li>
+          <li>
+            Hosted on GitHub Pages
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <h4><b><a href="pages/resume/resume.html">Resume</a></b></h4>
-  </div>
-  <!-- JavaScript Start -->
-  <script src="lib/jquery/jquery-3.2.1.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <!-- JavaScript End -->
+    <!-- JavaScript Start -->
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- JavaScript End -->
 </body>
 
 </html>

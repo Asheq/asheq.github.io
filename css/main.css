@@ -1,5 +1,7 @@
-body {
-    padding-top: 10%;
+@media (min-width: 1500px) {
+    body {
+        padding-top: 10%;
+    }
 }
 
 .my-resume-link {

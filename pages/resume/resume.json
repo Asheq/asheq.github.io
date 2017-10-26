@@ -2,12 +2,12 @@
   "basics": {
     "name": "Asheq Imran",
     "label": "Software Developer",
+    "picture": "me.jpg",
     "email": "asheq89@gmail.com",
     "phone": "(703) 870-9809",
     "website": "https://asheq.github.io",
     "summary": "I love writing high-performing software that is both useful and easy to use. I am currently working at General Electric where I build the front end for various edge applications.",
     "location": {
-      "address": "1320 Alma Avenue, Apt C104",
       "postalCode": "CA 94596",
       "city": "Walnut Creek",
       "countryCode": "US",

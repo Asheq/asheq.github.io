@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "Asheq Imran",
+    "location": {
+      "postalCode": "CA 94596",
+      "city": "Walnut Creek",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "asheq",
+        "url": "https://github.com/Asheq"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "GE Power",
+      "website": "https://www.ge.com",
+      "position": "Software Developer",
+      "startDate": "2013-08",
+      "endDate": "2017-10",
+      "summary": "General Electric",
+      "highlights": [
+        "Built front-end for various gas turbine advisory applications, which help power utilities operate gas turbines to maximize profits.",
+        "Wrote idiomatic client-side code using promises, the event loop, prototype-based inheritance, REST, and caching. Utilized functional programming concepts like pure functions and pushing DOM mutations to the edge.",
+        "Completed the Edison Engineering Development Program (EEDP)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "courses": [
+        "ECE 6390 - Satellite Communication and Navigation Systems",
+        "ECE 6456 - Solar Cells",
+        "ECE 8803 - Dynamic Control of Hybrid Electric Vehicles",
+        "ECE 8843 - Autonomous Control of Robotic Systems",
+        "ECE 6552 - Nonlinear Systems",
+        "ECE 6551 - Digital Control"
+      ],
+      "startDate": "2012-08",
+      "endDate": "2013-08",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Master of Science"
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "courses": [
+        "CS 1371 - Computing for Engineers (MATLAB)",
+        "CS 1372 - Program Design for Engineers (C)",
+        "ECE 2025 - Introduction to Signal Processing",
+        "ECE 2031 - Digital Design Lab (VHDL)",
+        "ECE 3070 - Electrical Energy Conversion",
+        "ECE 3090 - Software for Engineering Systems (C++)",
+        "ECE 3720 - Introduction to Fluid and Thermal Engineering",
+        "ECE 4175 - Embedded Microcontroller Design (C)",
+        "ECE 4580 - Computer Vision",
+        "ECE 4781 - Biomedical Instrumentation",
+        "ISYE 3770 - Statistics & Applications"
+      ],
+      "startDate": "2007-08",
+      "endDate": "2012-05",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "RESTful APIs with OpenAPI",
+        "Angular",
+        "Polymer",
+        "Web Components",
+        "UML Class and Sequence Diagrams",
+        "Chrome Developer Tools",
+        "Internationalization (i18n) and Localization (i10n)",
+        "Basic OO Design Patterns",
+        "Basic Relational Databases",
+        "NPM and Gulp Build Systems",
+        "TDD-Centered Pair Programming",
+        "Agile Methodology",
+        "Wireframe Design in Sketch",
+        "UX Principles"
+      ]
+    },
+    {
+      "name": "Applied Math",
+      "keywords": [
+        "Differential Equations",
+        "Controls Theory",
+        "Calculus"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "CST Engineering Award for Outstanding Tech. Achievement.",
+      "date": "2016",
+      "awarder": "General Electric"
+    },
+    {
+      "title": "GE Digital App-a-thon Winner",
+      "date": "2016",
+      "awarder": "General Electric"
+    },
+    {
+      "title": "Controls Symposium Predix App Contest Winner",
+      "date": "2016",
+      "awarder": "General Electric",
+      "summary": "The win in 2015 was awarded for developing a gas turbine \"life odometer.\" The win in 2016 was given for developing a \"performance recovery advisor,\" which recommends the most economical time to perform various gas turbine maintenance actions, such as replacing the inlet filter or performing a water wash."
+    }
+  ],
+  "interests": [
+    {
+      "name": "User Experience"
+    },
+    {
+      "name": "Vim"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Intermediate speaker"
+    }
+  ]
+}

@@ -2,12 +2,13 @@
   "basics": {
     "name": "Asheq Imran",
     "label": "Software Developer",
-    "picture": "me.jpg",
+    "picture": "",
     "email": "asheq89@gmail.com",
     "phone": "(703) 870-9809",
     "website": "https://asheq.github.io",
     "summary": "I love writing high-performing software that is both useful and easy to use. I am currently working at General Electric where I build the front end for various edge applications.",
     "location": {
+      "address": "1320 Alma Avenue, Apt C104",
       "postalCode": "CA 94596",
       "city": "Walnut Creek",
       "countryCode": "US",
@@ -26,7 +27,7 @@
       "company": "GE Power",
       "position": "Software Developer",
       "website": "https://www.ge.com",
-      "startDate": "Aug 2013",
+      "startDate": "2013-08-05",
       "endDate": "present",
       "summary": "General Electric",
       "highlights": [
@@ -41,8 +42,8 @@
       "institution": "Georgia Institute of Technology",
       "area": "Electrical and Computer Engineering",
       "studyType": "Master of Science",
-      "startDate": "Aug 2012",
-      "endDate": "Aug 2013",
+      "startDate": "2012-08-20",
+      "endDate": "2013-08-03",
       "courses": [
         "ECE 6390 - Satellite Communication and Navigation Systems",
         "ECE 6456 - Solar Cells",
@@ -56,8 +57,8 @@
       "institution": "Georgia Institute of Technology",
       "area": "Electrical and Computer Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "Aug 2007",
-      "endDate": "May 2012",
+      "startDate": "2007-08-20",
+      "endDate": "2012-05-05",
       "courses": [
         "CS 1371 - Computing for Engineers (MATLAB)",
         "CS 1372 - Program Design for Engineers (C)",

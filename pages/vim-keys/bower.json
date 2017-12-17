@@ -1,0 +1,16 @@
+{
+  "name": "vim-keys",
+  "description": "Table of all vim keys in all modes",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "^1.9.0",
+    "jquery": "^3.2.1",
+    "paper-toggle-button": "^2.0.0",
+    "iron-icon": "^2.0.1",
+    "paper-tooltip": "^2.0.1",
+    "iron-icons": "^2.0.1"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "^0.7.24"
+  }
+}

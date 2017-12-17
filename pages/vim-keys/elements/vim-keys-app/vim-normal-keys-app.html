@@ -1,0 +1,76 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-toggle-button/paper-toggle-button.html">
+<link rel="import" href="../../bower_components/paper-tooltip/paper-tooltip.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="vim-normal-keys-app-styles.html">
+
+<dom-module id="vim-normal-keys-app">
+  <template>
+    <style include="vim-normal-keys-app-styles"></style>
+    <div class="container">
+
+      <div class="title">
+        <h2>Normal-Mode Keys</h2>
+        <span class="small"> as of VIM 8.0 (patches: 1-1250) </span>
+      </div>
+      <hr>
+
+      <div class="legend">
+        <h3>Legend</h3>
+        <table class="table">
+          <td class="key norm-box type-operator">Operator</td>
+          <td class="key norm-box type-motion">Motion</td>
+          <td class="key norm-box type-command">Command</td>
+          <td class="key norm-box type-">Unused</td>
+        </table>
+      </div>
+
+      <div class="options">
+        <paper-toggle-button checked="{{showDescription}}">Show descriptions</paper-toggle-button>
+      </div>
+
+      <table class="key-table table">
+        <thead>
+          <tr>
+            <th class="dark-box"></th>
+            <!-- TODO: Use order -->
+            <th class="dark-box">key</th>
+            <th class="dark-box">SHIFT+key</th>
+            <th class="dark-box">CTRL+key</th>
+            <th class="dark-box">g key</th>
+            <th class="dark-box">z key</th>
+            <th class="dark-box">[ key</th>
+            <th class="dark-box">g SHIFT+key</th>
+            <th class="dark-box">z SHIFT+key</th>
+            <th class="dark-box">[ SHIFT+key</th>
+          </tr>
+        </thead>
+        <tbody>
+          <template is="dom-repeat" items="[[keys]]" as="keyObj">
+            <tr>
+              <td class="key dark-box">
+                [[keyObj.baseKey]]
+              </td>
+              <template is="dom-repeat" items="[[_toArray(keyObj.variations)]]" as="variation">
+                <td class$="key norm-box type-[[variation.value.type]]">
+                  <div class="key-display">
+                    [[variation.value.prettyDisplay]]
+                    <template is="dom-if" if=[[variation.value.duplicates]]>
+                      <iron-icon id="duplicate-icon" icon="content-copy" class="special-icon"></iron-icon>
+                    </template>
+                  </div>
+                  <template is="dom-if" if="[[showDescription]]">
+                    <div class="description">
+                      [[variation.value.description]]
+                    </div>
+                  </template>
+                </td>
+              </template>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
+  </template>
+  <script src="vim-normal-keys-app.js"></script>
+</dom-module>

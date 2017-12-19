@@ -1,117 +1,83 @@
 <dom-module id="vim-normal-keys-app-styles">
   <template>
     <style>
-
-      :root {
-        font-family: system-ui, sans-serif;
-      }
-
-
-      .container {
-        margin: 0 10em;
-      }
-
-
-      .title {
-        border-bottom: 1px solid #cccccc;
-        position: relative;
-      }
-
-      .title__img {
-        display: inline-block;
-        width: 80px;
-      }
-
-      .title__content {
-        display: inline-block;
-        margin: 0;
-        position: absolute;
-        bottom: 4px;
-      }
-
-
+      /* legend block */
       .legend {
         margin-bottom: 1em;
       }
 
-
-      .table {
-        border-collapse: collapse;
+      /* options Block */
+      .options {
+        margin-bottom: 1em;
       }
 
-      .key-table th {
-        white-space: nowrap;
-        padding: 2em 1em;
-        background-color: #cccccc;
+      /* table block */
+      .table_general {
+        border-collapse: separate;
+        border-spacing: 0;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+          0px 10px 20px rgba(0,0,0,0.05),
+          0px 20px 20px rgba(0,0,0,0.05),
+          0px 30px 20px rgba(0,0,0,0.05);
       }
 
-      .key-table tbody {
+      .table-keys__tbody {
         vertical-align: top;
       }
 
-      .key {
-        text-align: left;
-      }
-
-
+      /* box block */
       .box {
         padding: 0.5em;
-        border: 1px solid grey;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #555;
       }
-
-      .norm-box {
-        background-color: white;
-        color: #444444;
+      .box_header {
+        top: 0;
+        position: sticky;
+        z-index: 1;
+        background-color: hsl(35, 70%, 88%);
+        color: #555;
+        white-space: nowrap;
+        padding: 2em 1em;
       }
-
-      .dark-box {
-        background-color: #444444;
-        color: white;
+      .box_key {
+        text-align: left;
       }
-
-
-      .type- {
-        background: white;
+      .box_type_operator {
+        background-color: hsl(65, 85%, 35%);
+        color: #ddd;
       }
-
-      .type-operator {
-        background: #E78F8E;
+      .box_type_motion {
+        background-color: hsl(40, 80%, 40%);
+        color: #ddd;
       }
-
-      .type-motion {
-        background: #D1CFE2;
+      .box_type_command {
+        background-color: #58a;
+        color: #ddd;
       }
-
-      .type-command {
-        background: #ACD8AA;
+      /* TODO: box_type_unused */
+      .box_type {
+        background-color: hsl(35, 80%, 94%);
       }
-
-      .description {
-        font-size: 0.75em;
+      .box__description {
+        font-size: 0.85em;
       }
-
-
-      .key-display {
-        font-weight: bold;
-        font-size: 1.2em;
+      .box__key-display {
         padding-bottom: 0.5em;
         text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+        transition: all 0.25s;
       }
 
-
-      .small {
-        font-size: 0.75em;
-        color: grey;
+      .box:hover {
+        border-color: #DD4A68;
       }
 
-
-      .options {
-        margin: 2em;
-      }
-
-
-      .special-icon {
-        color: red;
+      /* Special icon block */
+      .box__special-icon {
+        color: #905;
       }
 
     </style>

@@ -6,12 +6,41 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 
-  <title>Vim Keys</title>
-  <meta name="description" content="Table of all vim keys in all modes">
+  <title>Vim Key Index</title>
+  <meta name="description" content="The ultimate vim cheat sheet">
   <style>
     body {
-      background-color: white;
+      background: hsl(35, 80%, 94%);
+      color: hsl(35, 50%, 40%);
+      font-family: system-ui, sans-serif;
     }
+
+    .container {
+      margin: 0 10em;
+    }
+
+    .title {
+      border-bottom: 1px solid hsl(35, 50%, 40%);
+      position: relative;
+    }
+
+    .title__img {
+      display: inline-block;
+      width: 80px;
+    }
+
+    .title__content {
+      display: inline-block;
+      margin: 0;
+      bottom: 4px;
+      padding-left: 0.25em;
+      padding-right: 1em;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
   </style>
   <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -19,7 +48,19 @@
 </head>
 
 <body>
-  <vim-normal-keys-app></vim-normal-keys-app>
+  <div class="container">
+    <div class="title">
+      <div class="title__img">
+        <img src="../../images/vim-logo-68.png">
+      </div>
+      <h1 class="title__content">Key Index</h1>
+      <h3 class="title__content italic">A comprehensive list of Vim keys in all modes</h3>
+    </div>
+    <div class="subtitle">
+      <h2>Normal-Mode</h2>
+    </div>
+    <vim-normal-keys-app></vim-normal-keys-app>
+  </div>
 </body>
 
 </html>

@@ -5,25 +5,19 @@
 <link rel="import" href="../keyboard-key/keyboard-key.html">
 <link rel="import" href="vim-normal-keys-app-styles.html">
 
+<!-- TODO: Add Normalize CSS Styles -->
+
 <dom-module id="vim-normal-keys-app">
   <template>
     <style include="vim-normal-keys-app-styles"></style>
-    <div class="container">
-      <div class="title">
-        <div class="title__img">
-          <img src="../../images/vim-logo-68.png">
-        </div>
-        <h1 class="title__content">Normal-Mode Keys</h1>
-      </div>
-
       <div class="legend">
         <h3>Legend</h3>
-        <table class="table">
+        <table class="table_general">
           <tr>
-            <td class="key box norm-box type-operator">Operator</td>
-            <td class="key box norm-box type-motion">Motion</td>
-            <td class="key box norm-box type-command">Command</td>
-            <td class="key box norm-box type-">Unused</td>
+            <td class="box box_key box_type_operator">Operator</td>
+            <td class="box box_key box_type_motion">Motion</td>
+            <td class="box box_key box_type_command">Command</td>
+            <td class="box box_key box_type">Unused</td>
           </tr>
         </table>
       </div>
@@ -31,65 +25,63 @@
       <div class="options">
         <paper-toggle-button checked="{{showDescription}}">Show descriptions</paper-toggle-button>
       </div>
-
-      <table class="key-table table">
-        <span class="small"> as of VIM 8.0 (patches: 1-1350) </span>
+      <table class="table_general table-keys">
         <thead>
           <tr>
             <!-- TODO: Use order -->
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='m' display='shift'></keyboard-key>+
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='ctrl'></keyboard-key>+
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='g'></keyboard-key>
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='z'></keyboard-key>
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='['></keyboard-key>
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='g'></keyboard-key>
               <keyboard-key size='m' display='shift'></keyboard-key>+
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='z'></keyboard-key>
               <keyboard-key size='m' display='shift'></keyboard-key>+
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
-            <th class="box">
+            <th class="box box_header">
               <keyboard-key size='s' display='['></keyboard-key>
               <keyboard-key size='m' display='shift'></keyboard-key>+
               <keyboard-key size='s' display='key'></keyboard-key>
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="tabke-keys__tbody">
           <template is="dom-repeat" items="[[keys]]" as="keyObj">
             <tr>
               <template is="dom-repeat" items="[[_toArray(keyObj.variations)]]" as="variation">
-                <td class$="key box norm-box type-[[variation.value.type]]">
-                  <div class="key-display">
+                <td class$="box box_key box_type_[[variation.value.type]]">
+                  <div class="box__key-display">
                     [[variation.value.prettyDisplay]]
                     <template is="dom-if" if=[[variation.value.duplicates]]>
-                      <iron-icon id="duplicate-icon" icon="content-copy" class="special-icon"></iron-icon>
+                      <iron-icon id="duplicate-icon" icon="content-copy" class="box__special-icon"></iron-icon>
                     </template>
                   </div>
                   <template is="dom-if" if="[[showDescription]]">
-                    <div class="description">
+                    <div class="box__description">
                       [[variation.value.description]]
                     </div>
                   </template>
@@ -99,7 +91,6 @@
           </template>
         </tbody>
       </table>
-    </div>
   </template>
   <script src="vim-normal-keys-app.js"></script>
 </dom-module>

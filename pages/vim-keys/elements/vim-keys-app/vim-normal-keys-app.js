@@ -13,7 +13,7 @@ Polymer({
     },
     showDescription: {
       type: Boolean,
-      value: true
+      value: false
     }
   },
   ready: function() {

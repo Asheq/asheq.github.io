@@ -2,26 +2,29 @@
 <link rel="import" href="../../bower_components/paper-toggle-button/paper-toggle-button.html">
 <link rel="import" href="../../bower_components/paper-tooltip/paper-tooltip.html">
 <link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../keyboard-key/keyboard-key.html">
 <link rel="import" href="vim-normal-keys-app-styles.html">
 
 <dom-module id="vim-normal-keys-app">
   <template>
     <style include="vim-normal-keys-app-styles"></style>
     <div class="container">
-
       <div class="title">
-        <h2>Normal-Mode Keys</h2>
-        <span class="small"> as of VIM 8.0 (patches: 1-1250) </span>
+        <div class="title__img">
+          <img src="../../images/vim-logo-68.png">
+        </div>
+        <h1 class="title__content">Normal-Mode Keys</h1>
       </div>
-      <hr>
 
       <div class="legend">
         <h3>Legend</h3>
         <table class="table">
-          <td class="key norm-box type-operator">Operator</td>
-          <td class="key norm-box type-motion">Motion</td>
-          <td class="key norm-box type-command">Command</td>
-          <td class="key norm-box type-">Unused</td>
+          <tr>
+            <td class="key box norm-box type-operator">Operator</td>
+            <td class="key box norm-box type-motion">Motion</td>
+            <td class="key box norm-box type-command">Command</td>
+            <td class="key box norm-box type-">Unused</td>
+          </tr>
         </table>
       </div>
 
@@ -30,29 +33,55 @@
       </div>
 
       <table class="key-table table">
+        <span class="small"> as of VIM 8.0 (patches: 1-1350) </span>
         <thead>
           <tr>
-            <th class="dark-box"></th>
             <!-- TODO: Use order -->
-            <th class="dark-box">key</th>
-            <th class="dark-box">SHIFT+key</th>
-            <th class="dark-box">CTRL+key</th>
-            <th class="dark-box">g key</th>
-            <th class="dark-box">z key</th>
-            <th class="dark-box">[ key</th>
-            <th class="dark-box">g SHIFT+key</th>
-            <th class="dark-box">z SHIFT+key</th>
-            <th class="dark-box">[ SHIFT+key</th>
+            <th class="box">
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='m' display='shift'></keyboard-key>+
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='s' display='ctrl'></keyboard-key>+
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='s' display='g'></keyboard-key>
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='s' display='z'></keyboard-key>
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='s' display='['></keyboard-key>
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='s' display='g'></keyboard-key>
+              <keyboard-key size='m' display='shift'></keyboard-key>+
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='s' display='z'></keyboard-key>
+              <keyboard-key size='m' display='shift'></keyboard-key>+
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
+            <th class="box">
+              <keyboard-key size='s' display='['></keyboard-key>
+              <keyboard-key size='m' display='shift'></keyboard-key>+
+              <keyboard-key size='s' display='key'></keyboard-key>
+            </th>
           </tr>
         </thead>
         <tbody>
           <template is="dom-repeat" items="[[keys]]" as="keyObj">
             <tr>
-              <td class="key dark-box">
-                [[keyObj.baseKey]]
-              </td>
               <template is="dom-repeat" items="[[_toArray(keyObj.variations)]]" as="variation">
-                <td class$="key norm-box type-[[variation.value.type]]">
+                <td class$="key box norm-box type-[[variation.value.type]]">
                   <div class="key-display">
                     [[variation.value.prettyDisplay]]
                     <template is="dom-if" if=[[variation.value.duplicates]]>

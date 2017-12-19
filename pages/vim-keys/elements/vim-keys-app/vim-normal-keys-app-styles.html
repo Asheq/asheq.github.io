@@ -3,38 +3,72 @@
     <style>
 
       :root {
-        font-family: system-ui;
+        font-family: system-ui, sans-serif;
       }
+
 
       .container {
         margin: 0 10em;
       }
 
+
       .title {
+        border-bottom: 1px solid #cccccc;
+        position: relative;
       }
+
+      .title__img {
+        display: inline-block;
+        width: 80px;
+      }
+
+      .title__content {
+        display: inline-block;
+        margin: 0;
+        position: absolute;
+        bottom: 4px;
+      }
+
 
       .legend {
         margin-bottom: 1em;
       }
 
+
       .table {
         border-collapse: collapse;
       }
 
-      .key {
-        padding: 0.5em;
+      .key-table th {
+        white-space: nowrap;
+        padding: 2em 1em;
+        background-color: #cccccc;
+      }
+
+      .key-table tbody {
         vertical-align: top;
       }
 
-      .norm-box {
+      .key {
+        text-align: left;
+      }
+
+
+      .box {
+        padding: 0.5em;
         border: 1px solid grey;
+      }
+
+      .norm-box {
+        background-color: white;
+        color: #444444;
       }
 
       .dark-box {
         background-color: #444444;
         color: white;
-        border: 1px solid grey;
       }
+
 
       .type- {
         background: white;
@@ -56,6 +90,7 @@
         font-size: 0.75em;
       }
 
+
       .key-display {
         font-weight: bold;
         font-size: 1.2em;
@@ -63,18 +98,22 @@
         text-align: center;
       }
 
+
       .small {
         font-size: 0.75em;
         color: grey;
       }
 
+
       .options {
         margin: 2em;
       }
 
+
       .special-icon {
         color: red;
       }
+
     </style>
   </template>
 </dom-module>

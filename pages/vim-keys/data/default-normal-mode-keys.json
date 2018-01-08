@@ -341,5 +341,650 @@
         "type": ""
       }
     }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
+  }, {
+    "baseKey": "c",
+    "shiftKey": "C",
+    "variations": {
+      "solo": {
+        "description": "append text after the cursor N times",
+        "type": "operator",
+        "duplicates": []
+      },
+      "shift": {
+        "description": "append text after the end of the line N times",
+        "type": "command",
+        "duplicates": ["test-3", "test-4"]
+      },
+      "control": {
+        "description": "add N to number at/after cursor",
+        "type": "command"
+      },
+      "g": {
+        "description": "print ascii value of character under the cursor",
+        "type": "command"
+      },
+      "z": {
+        "description": "open a closed fold, close an open fold",
+        "type": "command"
+      },
+      "squareBracket": {
+        "description": "",
+        "type": ""
+      },
+      "gShift": {
+        "description": "",
+        "type": ""
+      },
+      "zShift": {
+        "description": "open a closed fold or close an open fold recursively",
+        "type": "command"
+      },
+      "squareBracketShift": {
+        "description": "",
+        "type": ""
+      }
+    }
   }]
 }

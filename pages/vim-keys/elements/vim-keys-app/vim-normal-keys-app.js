@@ -11,9 +11,9 @@ Polymer({
         return ['shift', 'control', 'g', 'z', 'squareBracket', 'gShift', 'zShift', 'squareBracketShift'];
       }
     },
-    showDescription: {
+    showDescriptions: {
       type: Boolean,
-      value: false
+      value: true
     }
   },
   ready: function() {
@@ -71,5 +71,8 @@ Polymer({
       key = keyObj.baseKey;
     }
     return key;
+  },
+  computeType(type) {
+    return type ? type : 'unused';
   }
 });

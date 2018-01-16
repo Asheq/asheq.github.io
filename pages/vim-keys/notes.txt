@@ -1,0 +1,36 @@
+http://www.viemu.com/vi-vim-cheat-sheet.gif
+
+Note: Vim by default uses 'z' as a name-space for:
+  > Scrolling (both horizontal and vertical)
+  > Folding
+  > Spelling
+  > Changing window height
+
+Note: Vim by default uses 'g' as a name-space for:
+  > Operator for changing case
+  > Operator for formatting
+  > Operator for encoding
+  > Printing info about character under cursor
+  > Modifiers that modify the default behaviour of regular normal-mode commands
+  > 'Going' places (go to definition, go to file, etc.)
+  > Various...
+
+Note: Valid mappings that start with an operator:
+  > operator non-motion
+  > operator-1 operator-2
+
+Full List of Operators
+c
+d
+y
+=
+g~
+gu
+gU
+!
+gq
+g?
+>
+<
+zf
+g@
